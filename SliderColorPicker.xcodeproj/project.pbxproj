@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453069A41B145DE00049714F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453069A31B145DE00049714F /* AppDelegate.swift */; };
+		453069A71B145DE00049714F /* SliderColorPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 453069A51B145DE00049714F /* SliderColorPicker.xcdatamodeld */; };
+		453069A91B145DE00049714F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453069A81B145DE00049714F /* ViewController.swift */; };
+		453069AC1B145DE00049714F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453069AA1B145DE00049714F /* Main.storyboard */; };
+		453069AE1B145DE00049714F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453069AD1B145DE00049714F /* Images.xcassets */; };
+		453069B11B145DE00049714F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453069AF1B145DE00049714F /* LaunchScreen.xib */; };
+		453069BD1B145DE00049714F /* SliderColorPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453069BC1B145DE00049714F /* SliderColorPickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		453069B71B145DE00049714F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 453069961B145DE00049714F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4530699D1B145DE00049714F;
+			remoteInfo = SliderColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4530699E1B145DE00049714F /* SliderColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		453069A21B145DE00049714F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453069A31B145DE00049714F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		453069A61B145DE00049714F /* SliderColorPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SliderColorPicker.xcdatamodel; sourceTree = "<group>"; };
+		453069A81B145DE00049714F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		453069AB1B145DE00049714F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		453069AD1B145DE00049714F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		453069B01B145DE00049714F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		453069B61B145DE00049714F /* SliderColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		453069BB1B145DE00049714F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453069BC1B145DE00049714F /* SliderColorPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColorPickerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4530699B1B145DE00049714F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453069B31B145DE00049714F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453069951B145DE00049714F = {
+			isa = PBXGroup;
+			children = (
+				453069A01B145DE00049714F /* SliderColorPicker */,
+				453069B91B145DE00049714F /* SliderColorPickerTests */,
+				4530699F1B145DE00049714F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4530699F1B145DE00049714F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4530699E1B145DE00049714F /* SliderColorPicker.app */,
+				453069B61B145DE00049714F /* SliderColorPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453069A01B145DE00049714F /* SliderColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				453069A31B145DE00049714F /* AppDelegate.swift */,
+				453069A81B145DE00049714F /* ViewController.swift */,
+				453069AA1B145DE00049714F /* Main.storyboard */,
+				453069AD1B145DE00049714F /* Images.xcassets */,
+				453069AF1B145DE00049714F /* LaunchScreen.xib */,
+				453069A51B145DE00049714F /* SliderColorPicker.xcdatamodeld */,
+				453069A11B145DE00049714F /* Supporting Files */,
+			);
+			path = SliderColorPicker;
+			sourceTree = "<group>";
+		};
+		453069A11B145DE00049714F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				453069A21B145DE00049714F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		453069B91B145DE00049714F /* SliderColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				453069BC1B145DE00049714F /* SliderColorPickerTests.swift */,
+				453069BA1B145DE00049714F /* Supporting Files */,
+			);
+			path = SliderColorPickerTests;
+			sourceTree = "<group>";
+		};
+		453069BA1B145DE00049714F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				453069BB1B145DE00049714F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4530699D1B145DE00049714F /* SliderColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453069C01B145DE00049714F /* Build configuration list for PBXNativeTarget "SliderColorPicker" */;
+			buildPhases = (
+				4530699A1B145DE00049714F /* Sources */,
+				4530699B1B145DE00049714F /* Frameworks */,
+				4530699C1B145DE00049714F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderColorPicker;
+			productName = SliderColorPicker;
+			productReference = 4530699E1B145DE00049714F /* SliderColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		453069B51B145DE00049714F /* SliderColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453069C31B145DE00049714F /* Build configuration list for PBXNativeTarget "SliderColorPickerTests" */;
+			buildPhases = (
+				453069B21B145DE00049714F /* Sources */,
+				453069B31B145DE00049714F /* Frameworks */,
+				453069B41B145DE00049714F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453069B81B145DE00049714F /* PBXTargetDependency */,
+			);
+			name = SliderColorPickerTests;
+			productName = SliderColorPickerTests;
+			productReference = 453069B61B145DE00049714F /* SliderColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453069961B145DE00049714F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rohit Gurnani";
+				TargetAttributes = {
+					4530699D1B145DE00049714F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					453069B51B145DE00049714F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4530699D1B145DE00049714F;
+					};
+				};
+			};
+			buildConfigurationList = 453069991B145DE00049714F /* Build configuration list for PBXProject "SliderColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453069951B145DE00049714F;
+			productRefGroup = 4530699F1B145DE00049714F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4530699D1B145DE00049714F /* SliderColorPicker */,
+				453069B51B145DE00049714F /* SliderColorPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4530699C1B145DE00049714F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453069AC1B145DE00049714F /* Main.storyboard in Resources */,
+				453069B11B145DE00049714F /* LaunchScreen.xib in Resources */,
+				453069AE1B145DE00049714F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453069B41B145DE00049714F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4530699A1B145DE00049714F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453069A91B145DE00049714F /* ViewController.swift in Sources */,
+				453069A71B145DE00049714F /* SliderColorPicker.xcdatamodeld in Sources */,
+				453069A41B145DE00049714F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453069B21B145DE00049714F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453069BD1B145DE00049714F /* SliderColorPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		453069B81B145DE00049714F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4530699D1B145DE00049714F /* SliderColorPicker */;
+			targetProxy = 453069B71B145DE00049714F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		453069AA1B145DE00049714F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453069AB1B145DE00049714F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		453069AF1B145DE00049714F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453069B01B145DE00049714F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453069BE1B145DE00049714F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		453069BF1B145DE00049714F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453069C11B145DE00049714F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		453069C21B145DE00049714F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		453069C41B145DE00049714F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SliderColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderColorPicker.app/SliderColorPicker";
+			};
+			name = Debug;
+		};
+		453069C51B145DE00049714F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SliderColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderColorPicker.app/SliderColorPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453069991B145DE00049714F /* Build configuration list for PBXProject "SliderColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453069BE1B145DE00049714F /* Debug */,
+				453069BF1B145DE00049714F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453069C01B145DE00049714F /* Build configuration list for PBXNativeTarget "SliderColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453069C11B145DE00049714F /* Debug */,
+				453069C21B145DE00049714F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		453069C31B145DE00049714F /* Build configuration list for PBXNativeTarget "SliderColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453069C41B145DE00049714F /* Debug */,
+				453069C51B145DE00049714F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		453069A51B145DE00049714F /* SliderColorPicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				453069A61B145DE00049714F /* SliderColorPicker.xcdatamodel */,
+			);
+			currentVersion = 453069A61B145DE00049714F /* SliderColorPicker.xcdatamodel */;
+			path = SliderColorPicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 453069961B145DE00049714F /* Project object */;
+}
